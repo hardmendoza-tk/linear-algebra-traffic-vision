@@ -6,7 +6,7 @@
 
 Este proyecto explora cómo las **matrices y las operaciones matemáticas sobre imágenes** pueden utilizarse para detectar *regiones candidatas a vehículos* en dos calles, denominadas **A** y **B**. Está orientado a demostrar aplicaciones de Álgebra Lineal en tecnología, no al control físico del tráfico.
 
-> **Alcance:** no utiliza Arduino, servomotores, semáforos físicos ni modelos de inteligencia artificial entrenados. El contador muestra **candidatos visibles en cada fotograma**, no una identificación infalible de automóviles ni un conteo acumulado de vehículos que pasan.
+> **Alcance:** no utiliza modelos de inteligencia artificial entrenados. El contador muestra **candidatos visibles en cada fotograma**, no una identificación infalible de automóviles ni un conteo acumulado de vehículos que pasan.
 
 ## Características
 
