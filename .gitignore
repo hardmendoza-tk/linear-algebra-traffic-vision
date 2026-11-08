@@ -1,0 +1,26 @@
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Calibraciones personales
+calibracion_usuario/
+
+# Archivos del editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
