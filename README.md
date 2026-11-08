@@ -16,7 +16,7 @@ Este proyecto explora cómo las **matrices y las operaciones matemáticas sobre 
 - **Segmentación compartida:** un único procesamiento inicial y el mismo detector parametrizable aplicado a ambas calles.
 - **Filtrado geométrico:** componentes conectados, área en píxeles, dimensiones, proporción, solidez y ocupación de la caja.
 - **Modo diagnóstico:** inspección de píxeles activos y recuadros aceptados/rechazados.
-- **Material académico original:** los scripts experimentales históricos están en `legacy/`.
+- **Evolución académica:** conserva funciones matemáticas originales y documenta su posterior refactorización.
 
 ## Estructura
 
@@ -28,7 +28,6 @@ linear-algebra-traffic-vision/
 │   ├── detector.py            # Segmentación y conteo compartido
 │   └── vision_matrices.py     # Operaciones matemáticas originales
 ├── data/                      # Datos de calibración de la escena universitaria
-├── legacy/                    # Scripts históricos conservados
 ├── tests/                     # Pruebas automáticas
 ├── docs/
 │   ├── ORIGEN.md
@@ -147,8 +146,7 @@ Una imagen de grises puede entenderse como una matriz de intensidades, sobre la 
 
 ## Procedencia
 
-Esta implementación en Python es parte del trabajo académico realizado para Álgebra Lineal en la UPDS y posteriormente reorganizado para documentar su aplicación matemática. Los experimentos originales se conservan en `legacy/` para mostrar el proceso de desarrollo. No se incluyen funcionalidades de hardware.
-
+Esta implementación en Python es parte del trabajo académico realizado para Álgebra Lineal en la UPDS y posteriormente reorganizado para documentar su aplicación matemática. 
 ## Licencia
 
 No se incluye una licencia de reutilización por el momento. Si se decide publicar con una licencia abierta, deberá elegirse explícitamente.
